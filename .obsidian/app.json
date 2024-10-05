@@ -1,3 +1,5 @@
 {
-  "rightToLeft": false
+  "rightToLeft": false,
+  "promptDelete": false,
+  "showInlineTitle": false
 }

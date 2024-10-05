@@ -8,18 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "439e62eab2f2710c",
+            "id": "f391c57a605a9983",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "__vault_guides/Utils and Templates guide.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "787e21817c732028",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "__vault_guides/Idea Processing.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -31,17 +44,8 @@
       {
         "id": "064b0254f14a0b96",
         "type": "tabs",
+        "dimension": 38.41269841269842,
         "children": [
-          {
-            "id": "410ecf0dddd48afe",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
           {
             "id": "8e60bd07747f40a3",
             "type": "leaf",
@@ -58,18 +62,36 @@
             }
           },
           {
-            "id": "8695fe720586da1d",
+            "id": "673f5dd08c262579",
             "type": "leaf",
             "state": {
-              "type": "starred",
+              "type": "bookmarks",
               "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "0bbb0604ebe26ede",
+        "type": "tabs",
+        "dimension": 61.58730158730159,
+        "children": [
+          {
+            "id": "410ecf0dddd48afe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 253.5
   },
   "right": {
     "id": "d94a001246b2c20f",
@@ -78,33 +100,15 @@
       {
         "id": "30eddd0b10f9d620",
         "type": "tabs",
+        "dimension": 33.18452380952381,
         "children": [
           {
-            "id": "d670228367d856b1",
+            "id": "9e5309016ef307ef",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "outline",
               "state": {
-                "file": "README.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "d4591388f7b6e842",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "README.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "__vault_guides/Idea Processing.md"
               }
             }
           },
@@ -118,14 +122,47 @@
                 "useHierarchy": true
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "15795465ac357899",
+        "type": "tabs",
+        "dimension": 33.18452380952381,
+        "children": [
           {
-            "id": "9e5309016ef307ef",
+            "id": "d670228367d856b1",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "backlink",
               "state": {
-                "file": "README.md"
+                "file": "__vault_guides/Idea Processing.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "3ec517eaf966cbda",
+        "type": "tabs",
+        "dimension": 33.63095238095239,
+        "children": [
+          {
+            "id": "d4591388f7b6e842",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "__vault_guides/Idea Processing.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -133,21 +170,57 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 278.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "cmdr:Toggle Live Preview/Source mode": false
     }
   },
-  "active": "410ecf0dddd48afe",
+  "active": "787e21817c732028",
   "lastOpenFiles": [
-    "README.md"
+    "Extras/file_classes/note_class.md",
+    "Content/Notes/new new test est.md",
+    "Extras/Templates/Notes/reference_template.md",
+    "Extras/Templates/Notes/note_template.md",
+    "Extras/Templates/Notes/MOC_template.md",
+    "Extras/Templates/Notes/generic_note_template.md",
+    "Extras/Templates/Calendar/Yearly/yearly template.md",
+    "Extras/Templates/Calendar/Weekly/weekly template.md",
+    "Extras/Templates/Calendar/Quarterly/quarterly template.md",
+    "Extras/Templates/Calendar/Monthly/monthly template.md",
+    "Extras/Templates/Calendar/Daily/daily template.md",
+    "__vault_guides/Idea Processing.md",
+    "__vault_guides/Utils and Templates guide.md",
+    "Extras/file_classes/metadata_class.md",
+    "Extras/file_classes/quarterly_plan_class.md",
+    "__vault_guides/Recommended Plugins.md",
+    "Extras/Templates/Utils/update_version_field_template.md",
+    "Extras/file_classes/book_class.md",
+    "Extras/Templates/Sources/Books/Book_template.md",
+    "Extras/Templates/system/vision_template.md",
+    "Extras/file_classes/vision_class.md",
+    "Extras/Templates/system/quarterly_plan template.md",
+    "Extras/Templates/system/Project_template.md",
+    "Extras/file_classes/project_class.md",
+    "Extras/Templates/system/Core_Principle_template.md",
+    "Extras/Templates/Notes/Excalidraw_template.md",
+    "System/Quarterly Plans",
+    "System/Projects",
+    "System/Visions",
+    "System/Core Principles",
+    "Sources/References",
+    "Sources/Courses",
+    "Sources/Books",
+    "Content/MOCs",
+    "Calendar/Yearly",
+    "Calendar/Quarterly",
+    "Extras/Images/Guides/templater/user_scripts.png",
+    "Extras/Images/Guides/templater/note_picker_template.png",
+    "Extras/Images/Guides/templater/trigger_file_new_creation.png",
+    "Extras/Images/Guides/templater/templates_folder.png"
   ]
 }

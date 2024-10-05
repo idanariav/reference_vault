@@ -1,0 +1,10 @@
+We all have our goals in life, and perhaps we have even started a few projects to advance in those goals. Obsidian can offer us a system to create, track and adapt these projects over time to make sure we are progressing towards our goals.
+
+This system creates a smooth flow between our high level goals and our day to day lives through this pipeline:
+1. **Core principles -> visions**: The importance of values relies on how we manifest them in our lives. While a value is a perfect abstract notion, like "equality", we need a more tangible way to measure them. This is where "visions" come in. For each value, we create a vision. A vision can satisfy multiply values, and it is even recommended. A vision is a translation of value into a goal, for example "equality" can translate into "becoming a political activist"
+2. **Visions -> Projects**: Visions are then broken down into projects, which represents constant efforts towards accomplishing the goal. For example, a project can be "creating a political party". A project usually takes a year or more, but it can also be something constant without a due date. A vision can include multiple projects.
+3. **Projects -> Quarterly plans**: A quarterly plan is when we break down the project into high level steps that can be accomplished in a quarter. For example, "Reaching 1000 signatures".
+4. **Quarterly Plans -> Weekly Targets**: Each quarter plan is broken into 12 weeks, each including the smallest of steps needed to reach the quarterly target. For example "call 10 people" or "Prepare a cold email template". The 13th week of every quarter is reserved for catch ups in case some tasks are overdue. 
+5. **Weekly Targets -> Daily Actions**: In our weekly review, we can decide on which day we will perform the tasks scheduled for that week.
+
+This framework is loosely based on the [[12 week year (book)]] model, with the added benefit of smart linking, automation and digitization for convenience and usability. 
