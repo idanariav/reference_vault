@@ -6,8 +6,8 @@ const endMonth = moment(title, 'YYYY-MM').endOf('month').format('YYYY-MM-DD')
 const prevMonth = moment(title, 'YYYY-MM').subtract(1, 'months').format('YYYY-MM')
 await tp.file.move("Calendar/Monthly/" + title)
 -%>
-start_date: <% startMonth %>
-end_date: <% endMonth %>
+StartDate: <% startMonth %>
+EndDate: <% endMonth %>
 tags: Review/Monthly
 aliases:
  - "<% moment(title, 'YYYY-MM').format('MMM YYYY') %>"

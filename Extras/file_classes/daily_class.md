@@ -5,8 +5,8 @@ mapWithTag: false
 tagNames:
   - Review/Daily
 excludes: 
-extends: review_class
-version: "2.101"
+extends: 
+version: "2.110"
 fields:
   - id: b9mxJP
     name: Gratitude
@@ -14,13 +14,13 @@ fields:
     type: Input
     path: ""
   - id: eAPlH1
-    name: Worst_case
-    options: []
+    name: WorstCase
+    options: {}
     type: Input
     path: ""
   - id: GUbMKK
-    name: Best_case
-    options: []
+    name: BestCase
+    options: {}
     type: Input
     path: ""
   - id: oT5IX4
@@ -68,7 +68,7 @@ fields:
       step: "1"
     type: Number
     path: ""
-  - name: Sleep_hrs
+  - name: SleepHrs
     type: Number
     options:
       step: 1
@@ -76,7 +76,7 @@ fields:
       max: 24
     path: ""
     id: 0cu15u
-  - name: Sleep_mins
+  - name: SleepMins
     type: Number
     options:
       step: 1
@@ -96,12 +96,12 @@ fields:
     options: {}
     path: ""
     id: VULiZc
-  - name: Avoided_temptations
+  - name: AvoidedTemptations
     type: Boolean
     options: {}
     path: ""
     id: faCtOC
-  - name: Upheld_commitments
+  - name: UpheldCommitments
     type: Boolean
     options: {}
     path: ""
@@ -111,17 +111,17 @@ fields:
     options: {}
     path: ""
     id: JSApDy
-  - name: Pursued_goals
+  - name: PursuedGoals
     type: Boolean
     options: {}
     path: ""
     id: yFDZgq
-  - name: Maintained_composure
+  - name: MaintainedComposure
     type: Boolean
     options: {}
     path: ""
     id: HDxAi4
-  - name: Minimal_progress
+  - name: MinimalProgress
     type: Input
     options: {}
     path: ""
@@ -135,7 +135,7 @@ fields:
     id: AYRipk
 filesPaths: 
 bookmarksGroups: 
-savedViews: []
+savedViews: 
 favoriteView: 
 fieldsOrder:
   - rrGgMe

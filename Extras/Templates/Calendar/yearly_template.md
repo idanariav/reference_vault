@@ -123,25 +123,20 @@ The yearly review’s goal is to deeply review multiple aspects on the passing y
 > - do I have new Values?
 > - which Values are now redundant?
 
-```dataview
-LIST FROM #System/Core_Principle 
-WHERE file.name != "Core_Principle_template"
-```
-
 ### 🔭Vision
 
 ```dataview
-LIST FROM #System/Vision 
-and !#Status/Completed 
-WHERE file.name != "OKR template"
+LIST FROM #System/Vision  
+WHERE file.name != "vision_template"
+AND status != "completed"
 ```
 
-### 💼Projects
+### 🛤️Projects
 
 ```dataview
 LIST FROM #System/Project 
 and !#Status/Completed 
-WHERE file.name != "Project template"
+WHERE file.name != "project_template"
 ```
 
 ## 🔧To-dos

@@ -1,8 +1,7 @@
 ---
-<%**
+<%*
 const title = tp.file.title
 -%>
-
 tags: [System/Core_Principle]
 ---
 
@@ -24,5 +23,5 @@ tags: [System/Core_Principle]
 ## Visions
 
 ```dataview
-TABLE Importance, Deadline FROM #System/Vision AND [[<% title %>]]
+TABLE StartDate, EndDate, Status FROM #System/Vision AND [[<% title %>]]
 ```

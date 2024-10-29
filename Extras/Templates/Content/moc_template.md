@@ -16,7 +16,7 @@ tags: [Type/MOC]
 ### 📥Unsorted notes
 ```dataview
 LIST FROM [[<% NewTitle %>]] AND -outgoing([[<% NewTitle %>]])
-AND  !#Type/MOC AND !#review/Daily
+AND  (#Type/Note OR #TYpe/Reference)
 sort file.name asc
 ```
 

@@ -5,9 +5,9 @@ mapWithTag: false
 tagNames: 
 excludes: 
 extends: 
-version: "2.13"
+version: "2.16"
 fields:
-  - name: uuid
+  - name: UUID
     type: Number
     options:
       step: 1
@@ -21,13 +21,6 @@ fields:
       min: 1
     path: ""
     id: MumNay
-  - name: template_version
-    type: Number
-    options:
-      step: 0.01
-      min: 1
-    path: ""
-    id: ukDHGW
   - name: Modified
     type: DateTime
     options:
@@ -42,20 +35,13 @@ fields:
       defaultInsertAsLink: "false"
     path: ""
     id: M9zPFF
-  - name: dg-publish
-    type: Boolean
-    options: {}
-    path: ""
-    id: MK1UYb
 filesPaths: 
 bookmarksGroups: 
-savedViews: 
+savedViews: []
 favoriteView: 
 fieldsOrder:
-  - MK1UYb
   - M9zPFF
   - QIO7dM
-  - ukDHGW
   - MumNay
   - uaqCcy
 ---

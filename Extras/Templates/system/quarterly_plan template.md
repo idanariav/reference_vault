@@ -4,12 +4,11 @@ const title = tp.file.title
 const newTitle = `${title} (Q-plan)`
 await tp.file.move("/System/Quarterly Plans/" + newTitle)
 -%>
-class: quarterly_plan_class
 tags: [System/Quarterly_Plan]
-status: Backlog
-start_date:
-end_date:
-project: 
+StartDate: 
+EndDate: 
+Status: Backlog
+Project: 
 ---
 # <% title %>
 

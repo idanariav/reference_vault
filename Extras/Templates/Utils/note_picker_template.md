@@ -19,19 +19,19 @@ function detectDateGranularity(inputText) {
 		      switch (i) {
 		        case 0:
 			        console.log("detected daily date pattern")
-					return '[[daily template]]';
+					return '[[daily_template]]';
 		        case 1:
 			        console.log("detected weekly date pattern")
-			        return '[[weekly template]]';
+			        return '[[weekly_template]]';
 		        case 2:
 			        console.log("detected monthly date pattern")
-			        return '[[monthly template]]';
+			        return '[[monthly_template]]';
 		        case 3:
 			        console.log("detected quarterly date pattern")
-			        return '[[quarterly template]]';
+			        return '[[quarterly_template]]';
 		        case 4:
 			        console.log("detected yearly date pattern")
-			        return '[[yearly template]]';
+			        return '[[yearly_template]]';
 		      }
 		    }
 		  }
@@ -44,7 +44,7 @@ function detectDateGranularity(inputText) {
 
 // high level template picker
 // need to add: 3. areas - creators, courses, philosophers
-let pickTemplate = await tp.system.suggester(["Note", "Book","Advanced Notes" ,"Calendar", "System"], ["[[note_template]]", "[[Book_template]]", "advanced", "areas", "calendar", "system"])
+let pickTemplate = await tp.system.suggester(["Note", "Book","Other Notes" ,"Calendar", "System"], ["[[note_template]]", "[[Book_template]]", "advanced", "calendar", "system"])
 
 // periodical reviews
 if (pickTemplate == "calendar") 
@@ -56,7 +56,7 @@ if (pickTemplate == "calendar")
 // advanced notes
 else if (pickTemplate == "advanced")
 {
-	pickTemplate = await tp.system.suggester(["References", "MOC"], ["[[reference_template]]", "[[MOC_template]]"])
+	pickTemplate = await tp.system.suggester(["References", "MOC"], ["[[reference_template]]", "[[moc_template]]"])
 }
 // system
 else if (pickTemplate == "system")

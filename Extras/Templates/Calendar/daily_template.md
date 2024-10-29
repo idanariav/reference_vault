@@ -4,21 +4,21 @@ await tp.file.move("Calendar/Daily/" + title)
 -%>
 Date: <% title %>
 tags: Review/Daily
-Worst_case: 
-Best_case:
-Minimal_progress:
+WorstCase: 
+BestCase:
+MinimalProgress:
 Gratitude:
 Kindness:
 Compliment:
 Documentation: true
 Health: true
 Mulligan: false
-Avoided_temptations: true
-Upheld_commitments: true
-Maintained_composure: true
-Pursued_goals: false
-Sleep_hrs: 0
-Sleep_mins: 0
+AvoidedTemptations: true
+UpheldCommitments: true
+MaintainedComposure: true
+PursuedGoals: false
+SleepHrs: 0
+SleepMins: 0
 Meditation: 0
 Reading: 0
 Studying: 0
@@ -50,8 +50,10 @@ LIMIT 10
 ## 📝 Planning
 
 ```tasks
-path includes system
+path includes System
+filter by function task.file.property('status') === 'InProgress'
 not done
+is not blocked
 happens on or before <% moment(title, 'YYYY-[W]WW') %>
 group by status.name
 ```
@@ -60,9 +62,7 @@ group by status.name
 
 ### 💭Documenting
 
-### ⚖️Assessment
-
-#### 📜Logs
+### 📜Logs
 
 🌱Insights:: 
 🏅Achieved::

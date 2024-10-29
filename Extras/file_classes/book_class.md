@@ -10,7 +10,7 @@ fields:
     type: Number
     path: ""
   - id: 2v8IfE
-    name: Date_finished
+    name: FinishDate
     options:
       dateFormat: YYYY-MM-DD
       defaultInsertAsLink: "false"
@@ -54,7 +54,7 @@ fields:
     options: {}
     path: ""
     id: Ms3XTd
-  - name: Publish_Date
+  - name: PublishDate
     type: Date
     options:
       dateFormat: YYYY-MM-DD
@@ -71,7 +71,7 @@ fields:
     options: {}
     path: ""
     id: 3NGSL4
-  - name: Status
+  - name: ReadingStatus
     type: Select
     options:
       valuesList:
@@ -84,7 +84,7 @@ fields:
       valuesFromDVQuery: ""
     path: ""
     id: V3jcp0
-version: "2.14"
+version: "2.17"
 limit: 20
 mapWithTag: false
 tagNames:

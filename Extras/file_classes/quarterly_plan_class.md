@@ -1,21 +1,13 @@
 ---
 icon: target
 fields:
-  - id: 4sTgkQ
-    name: end_date
-    options:
-      dateFormat: YYYY-MM-DD
-      defaultInsertAsLink: "false"
-      dateShiftInterval: 1 month
-    type: Date
-    path: ""
   - id: dnF9ve
-    name: project
+    name: Project
     options:
       dvQueryString: dv.pages('"System/Projects"')
     type: MultiFile
     path: ""
-  - name: status
+  - name: Status
     type: Cycle
     options:
       sourceType: ValuesListNotePath
@@ -23,16 +15,7 @@ fields:
       valuesListNotePath: Extras/Utils/Status list util.md
     path: ""
     id: 3Qilto
-  - name: start_date
-    type: Date
-    options:
-      dateShiftInterval: 1 day
-      dateFormat: YYYY-MM-DD
-      defaultInsertAsLink: false
-      linkPath: ""
-    path: ""
-    id: 3D014f
-version: "2.15"
+version: "2.20"
 limit: 20
 mapWithTag: false
 tagNames:
@@ -40,12 +23,10 @@ tagNames:
 filesPaths: 
 bookmarksGroups: 
 excludes: 
-extends: 
+extends: review_class
 savedViews: []
 favoriteView: 
 fieldsOrder:
-  - 3D014f
   - 3Qilto
   - dnF9ve
-  - 4sTgkQ
 ---

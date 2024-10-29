@@ -7,15 +7,8 @@ tagNames:
   - Type/Reference
 excludes: 
 extends: metadata_class
-version: "2.18"
+version: "2.20"
 fields:
-  - id: i8X38t
-    name: Influence
-    options:
-      autoUpdate: false
-      formula: current.file.inlinks.length
-    type: Formula
-    path: ""
   - name: excalidraw-plugin
     type: Select
     options:
@@ -26,18 +19,6 @@ fields:
       valuesFromDVQuery: ""
     path: ""
     id: gKndEk
-  - name: BC-link-note
-    type: Select
-    options:
-      valuesList:
-        "1": Jump
-        "2": Up
-        "3": Down
-      sourceType: ValuesList
-      valuesListNotePath: ""
-      valuesFromDVQuery: ""
-    path: ""
-    id: M1DIw0
   - name: excalidraw-open-md
     type: Boolean
     options: {}
@@ -60,7 +41,5 @@ favoriteView:
 fieldsOrder:
   - 78H4Y7
   - c4zQpG
-  - M1DIw0
   - gKndEk
-  - i8X38t
 ---

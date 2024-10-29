@@ -13,7 +13,12 @@
   "shell_path": "",
   "user_scripts_folder": "Extras/Snippets",
   "enable_folder_templates": true,
-  "folder_templates": [],
+  "folder_templates": [
+    {
+      "folder": "/",
+      "template": "Extras/Templates/Utils/note_picker_template.md"
+    }
+  ],
   "enable_file_templates": false,
   "file_templates": [
     {

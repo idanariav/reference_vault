@@ -9,18 +9,18 @@ Also, the journaling habits is combined with the [[Task Management]] aspect of t
 Reflect on the day's events and how you acted in them. At first I used a base "rate" to rate my day, but then I realized how narrow it is. A single measure, especially a numeric one can't represent the richness and complexity of human life. That's why I added both qualitative measures (an empty text field to enter your thoughts about the day), and quantitative measures (metrics you can track across time).
 
 example metrics:
-1. Worst_case (text) - Thinking about a potential thing that can happen that would ruin your day, to enourage you to think how you can best prepare in advance (Originated from the [[stoics]] "negative meditation", a form of [[pre mortem]]) 
-2. Best_case (text) - What would be the best thing that can happen to you today? Can you make it a reality? Something to strive for
-3. Minimal_progress (text) - What would make you feel that "at least this day wasn't a waste", something as small as a few minutes that can create a feeling of progress
+1. WorstCase (text) - Thinking about a potential thing that can happen that would ruin your day, to enourage you to think how you can best prepare in advance (Originated from the [[stoics]] "negative meditation", a form of [[pre mortem]]) 
+2. BestCase (text) - What would be the best thing that can happen to you today? Can you make it a reality? Something to strive for
+3. MinimalProgress (text) - What would make you feel that "at least this day wasn't a waste", something as small as a few minutes that can create a feeling of progress
 4. Gratitude (text) - something you are grateful for
 5. Kindness (text) - an act of kindness you've done for someone else without expecting return
-6. Compliment (text) - a verbal experssion of care or gratutide towards someone else
+6. Compliment (text) - a verbal expression of care or gratitude towards someone else
 7. Documentation (True/False) - Have you been journaling today?
 8. Health (True/False) - Do you feel well today?
-9. Avoided_temptations (True/False) - Did you manage to avoid temptations such as social media and unhealthy food today?
-10. Upheld_commitments (True/False) - Have you done "what you are supposed to do" today? Have you finished all your important tasks? 
-11. Maintained_composure (True/False) - Did you act in a way that represents who you wish to be?
-12. Pursued_goals (True/False) - Have you progressed towards fulfilling your goals?
+9. AvoidedTemptations (True/False) - Did you manage to avoid temptations such as social media and unhealthy food today?
+10. UpheldCommitments (True/False) - Have you done "what you are supposed to do" today? Have you finished all your important tasks? 
+11. MaintainedComposure (True/False) - Did you act in a way that represents who you wish to be?
+12. PursuedGoals (True/False) - Have you progressed towards fulfilling your goals?
 13. Studying (Numeric) - How many minutes have you spent today on learning something new?
 14. Developing (Numeric) - How many minutes have you spent today on creating something new
 15. Cardio (Numeric) - How many minutes have you dedicated today for cardio?
@@ -34,7 +34,7 @@ As an advanced version, I convert these inputs into numerical metrics and track 
 Let me know if such a template is of interest to you.
 
 Also, the daily template includes a "log" section which is a way to note important events that happen throughout the day.
-This events resurface using the dataview plugin at the monthly level.
+This events resurface using the Dataview plugin at the monthly level.
 For me, these different type of events (like insights, connection and empowerment) represent manifestation of my core values, which are examined in the yearly review.
 ## Weekly
 

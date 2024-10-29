@@ -7,17 +7,16 @@ const fiction = type==="fiction"
 await tp.file.move("/Sources/Books/" + newTitle)
 -%>
 <% tp.file.include('[[metadata_template]]') %>
-class: book_class
 tags: [Type/Book]
-Publish_Date: {{publishDate}}
+PublishDate: {{publishDate}}
 Pages: {{totalPage}}
 Author: "[[{{author}}]]"
 Genre: {{category}}
 Fiction: <% fiction %>
 Cover: {{coverUrl}}
 URL:
-Status: Next
-Date_finished: 
+ReadingStatus: Next
+FinishDate: 
 Rate: 
 aliases:
 ---

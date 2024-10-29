@@ -6,8 +6,8 @@ const startQuarter = moment(title, 'YYYY-[Q]Q').startOf('quarter').format('YYYY-
 const endQuarter = moment(title, 'YYYY-[Q]Q').endOf('quarter').format('YYYY-MM-DD')
 await tp.file.move("Calendar/Quarterly/" + title)
 -%>
-start_date: <% startQuarter %>
-end_date: <% endQuarter %>
+StartDate: <% startQuarter %>
+EndDate: <% endQuarter %>
 tags: Review/Quarterly
 aliases:
 ---
@@ -23,9 +23,9 @@ The quarterly review’s goal is to track my development in the long run, how I 
 
 ```dataview
 TABLE Impactful, Low, Peak, Discovery, Opportunity FROM #Review/Monthly 
-WHERE date(start_date) >= date(<% startQuarter %>)
-AND date(end_date) <= date(<% endQuarter %>)
-SORT start_date
+WHERE date(StartDate) >= date(<% startQuarter %>)
+AND date(EndDate) <= date(<% endQuarter %>)
+SORT StartDate
 ```
 
 ### ✍️Personal
@@ -38,33 +38,25 @@ SORT start_date
 *What do I need to start/stop/continue doing?*
 * 
 
-### ✅Tasks
-- [x] assign due dates to backlog tasks
+## 📝Planning
 
-```tasks
-not done
-no happens date
-filter by function task.status.symbol == "b"
-```
 ### 🌱Quarterly Plans
 - [ ] check this quarter's plans, either active or backlog, or scheduled plans. Update as necessary (*when converting to "in progress", convert tasks to "backlog" with a b or assign dates*)
 
 ```dataview
-TABLE Deadline, Project FROM #System/Quarterly_Plan  
+TABLE Status, EndDate, Project FROM #System/Quarterly_Plan  
 WHERE (Status = "InProgress" OR  Status = "Todo")
-AND end_date <= date(<% endQuarter %>)
-SORT status DESC
+AND EndDate <= date(<% endQuarter %>)
+SORT Status DESC
 ```
 
+### 🛤️Projects
 
-## 📝Planning
-
-### 🛤️Visions
-
-- [ ]  review all visions, create/update as necessary (dates, status, Quarterly Plans...)
+- [ ]  review all projects, create/update as necessary (dates, status, Quarterly Plans...)
 ```dataview
-TABLE end_date, status, value FROM #System/Vision and !#Status/Completed 
+TABLE EndDate, Status, Vision FROM #System/Project
 WHERE file.folder != "Extras/Templates/system"
-SORT status
+AND Status != "Completed"
+SORT Status
 ```
 

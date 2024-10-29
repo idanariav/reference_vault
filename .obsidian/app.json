@@ -1,5 +1,9 @@
 {
   "rightToLeft": false,
   "promptDelete": false,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Extras/Images",
+  "showRibbon": false,
+  "showIndentGuide": false
 }

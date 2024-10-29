@@ -4,12 +4,11 @@ const title = tp.file.title
 const newTitle = `${title} (vision)`
 await tp.file.move("/System/Visions/" + newTitle)
 -%>
-class: vision_class
 tags: [System/Vision]
-start_date:
-end_date:
-value:
-status:
+StartDate: 
+EndDate: 
+Status:
+Value:
 ---
 # <% title %>
 
@@ -22,8 +21,8 @@ status:
 ## How can I reach this goal? (active projects)
 
 ```dataview
-TABLE start_date, end_date, status FROM #System/Project AND [[<% newTitle %>]]
-SORT start_date
+TABLE StartDate, EndDate, Status FROM #System/Project AND [[<% newTitle %>]]
+SORT StartDate
 ```
 
 
