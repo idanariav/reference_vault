@@ -7,7 +7,7 @@ tagNames:
   - Type/Reference
 excludes: 
 extends: metadata_class
-version: "2.20"
+version: "2.22"
 fields:
   - name: excalidraw-plugin
     type: Select

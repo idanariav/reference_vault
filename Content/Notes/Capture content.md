@@ -21,7 +21,7 @@ we need to store/capture information in a way that it will be useful later on an
 3. *D - Distill*: go over the resource again and mark the important parts, distill a summary/key take-away from it
 4. *E - Express*: pass that distilled part forward through any method/media you wish so that knowledge would be used later on instead of rotting in a vault.
 
-## Additional Metadata
+## Overview
 
 Topic:: [[PKM (MOC)]]
 Origin:: [[Tiago Forte]]

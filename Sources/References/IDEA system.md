@@ -25,7 +25,7 @@ It similar to the (Reminds:: [[Idea Compass]]) in a way that it forces you to th
 ## Visual
 
 
-## Additional Metadata
+## Overview
 ⬆️Topic:: [[Periodical Review]]
 ↩️Origin::
 🔗Link:: 

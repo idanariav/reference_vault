@@ -21,7 +21,7 @@ aliases:
 4. **C - Category:** to which category this note belongs to? by linking it to a category it will be easier to find if all you remember is the topic and not the note itself.
 5. **H - Hierarchy:** - is this note a child/sibling of a different note? by creating a "family tree" for notes it will be easier to discover related notes.
 
-## Additional Metadata
+## Overview
 🔼Topic:: [[PKM (MOC)]]
 ◀Origin:: [[Nicole van der Hoeven]]
 🔗Link:: [link](https://www.youtube.com/watch?v=vS-b_RUtL1A)

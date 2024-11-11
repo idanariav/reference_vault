@@ -25,7 +25,7 @@ However, in order to make them truly independent, the have to be (Jump:: [[Atomi
 
 This is similar to the programming concept of (Related:: [[SOLID principle]]), which states that each function should only have one goal.
 
-## Additional Metadata
+## Overview
 Topic:: [[PKM (MOC)]]
 Origin:: [[Zsolt's Visual Personal Knowledge Management]]
 🔗Link::

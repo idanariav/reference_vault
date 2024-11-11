@@ -33,3 +33,7 @@ The "vault_guides" folder is dedicated to help you familiarize yourself with the
 5. For a more theorical overview on how to use this vault to enhance your life, visit [[Periodical Journaling]], [[Idea Processing]], and [[Vault Structure]]
 
 Have fun!
+
+## Want to connect?
+
+If you wish for a more thorough overview of Obsidian and how to use this vault, or questions about knowledge management in general, feel free to contact me via [this](https://tinyurl.com/contact-idan) form

@@ -26,7 +26,7 @@ When it comes to ideas we need to (Jump:: [[Distillment|distill]]) them to the s
 
 ![[Atomism.webp]]
 
-## Additional Metadata
+## Overview
 🔼Topic:: [[PKM (MOC)]]
 ◀Origin:: [[Linking your Thinking]]
 🔗Link::

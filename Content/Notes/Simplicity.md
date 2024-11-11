@@ -24,7 +24,7 @@ The added value of simplicity is that the main constraint is a low level of (Rel
 ![[Simplicity.webp]]
 
 
-## Additional Metadata
+## Overview
 🔼Topic:: [[PKM (MOC)]]
 ◀Origin::
 🔗Link:: 

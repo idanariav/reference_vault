@@ -5,7 +5,7 @@ mapWithTag: false
 tagNames: 
 excludes: 
 extends: 
-version: "2.16"
+version: "2.17"
 fields:
   - name: UUID
     type: Number
@@ -14,13 +14,6 @@ fields:
       min: 0
     path: ""
     id: uaqCcy
-  - name: Version
-    type: Number
-    options:
-      step: 0.01
-      min: 1
-    path: ""
-    id: MumNay
   - name: Modified
     type: DateTime
     options:
@@ -42,6 +35,5 @@ favoriteView:
 fieldsOrder:
   - M9zPFF
   - QIO7dM
-  - MumNay
   - uaqCcy
 ---

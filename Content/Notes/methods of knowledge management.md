@@ -29,7 +29,7 @@ Whichever structure we choose, it must "make sense", i.e that it will be easy fo
 ![[methods of knowledge management.webp]]
 
 
-## Additional Metadata
+## Overview
 
 Topic:: [[PKM (MOC)]]
 Origin:: [[Zsolt's Visual Personal Knowledge Management]]

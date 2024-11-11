@@ -27,7 +27,7 @@ Another example is our consciousness. When we look at each individual neuron, we
 
 ![[Emergence.webp]]
 
-## Additional Metadata
+## Overview
 🔼Topic:: [[PKM (MOC)]]
 ◀Origin:: [[Kurzgesagt]]
 🔗Link:: https://www.youtube.com/embed/16W7c0mb-rE

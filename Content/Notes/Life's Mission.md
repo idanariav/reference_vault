@@ -29,7 +29,7 @@ A life mission has to be clear (Aka:: [[Clarity]]), and inspirational, so that i
 
 ![[Life's Mission.webp]]
 
-## Additional Metadata
+## Overview
 🔼Topic:: [[workflows (MOC)]] [[Motivation (MOC)]] [[Existentialism (MOC)]]
 ◀Origin::
 🔗Link:: 

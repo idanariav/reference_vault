@@ -22,7 +22,7 @@ PARA is another possible method of organizing a knowledge system. (Opposes:: [[a
 4. A - **Archives**, instead of deleting a resource/project, archive it in case you would want to retrieve it later
 
 
-## Additional Metadata
+## Overview
 🔼Topic:: [[PKM (MOC)]]
 ◀Origin:: [[Tiago Forte]]
 🔗Link:: [Source]()

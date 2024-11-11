@@ -20,7 +20,7 @@ therefore once we finished "processing" a thought, we should save it somewhere e
 
 for this conclusion derives the need to create a system to easily store, access and preform actions based on our saved thoughts. Therefore its no wonder that this idea is the basis for (knowledge management. .
 
-## Additional Metadata
+## Overview
 🔼Topic:: [[Creativity (MOC)]] [[Human Brain]] [[PKM (MOC)]]
 ◀Origin:: [[Getting Things Done (book)]]
 🔗Link::

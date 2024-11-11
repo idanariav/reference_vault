@@ -30,7 +30,7 @@ Overdue/Open tasks
 ```tasks
 path includes System
 filter by function task.file.property('status') === 'InProgress' 
-happens on or before <% next_week %> 
+happens before <% title %> 
 not done
 group by function task.due.format("YYYY-[W]WW")
 ```

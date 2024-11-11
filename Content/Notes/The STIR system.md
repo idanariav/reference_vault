@@ -23,7 +23,7 @@ similar to (Jump:: [[The LATCH system]]), this is another way of organizing your
 my opinion - I think that this attempt to "rebrand" an organizing system by Nick is definitely lacking. *LATCH is more clear in terms of how to use it,* and which type of data I should add to my notes. *While STIR gives me criteria to evaluate my notes* but not how to make it easier to search/find when needed.
 
 
-## Additional Metadata
+## Overview
 🔼Topic:: [[PKM (MOC)]]
 ◀Origin:: [[Linking your Thinking]]
 🔗Link::

@@ -25,7 +25,7 @@ Sometimes it leads to the [[red queen problem]], that you need to run nonstop ju
 
 ![[Complexity.webp]]
 
-## Additional Metadata
+## Overview
 🔼Topic:: [[PKM (MOC)]] [[Learning (MOC)]]
 ◀Origin::
 🔗Link:: 

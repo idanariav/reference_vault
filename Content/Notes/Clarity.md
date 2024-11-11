@@ -25,7 +25,7 @@ In essence, clarity is usually what we search for in our lives, because without 
 ![[Clarity.webp]]
 
 
-## Additional Metadata
+## Overview
 🔼Topic:: [[PKM (MOC)]]
 ◀Origin::
 🔗Link:: 

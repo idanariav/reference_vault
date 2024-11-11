@@ -8,6 +8,7 @@ await tp.file.move("/Sources/References/" + title)
 tags: [Type/Reference, Source/<% source %>]
 excalidraw-autoexport: png
 excalidraw-open-md: true
+
 aliases:
 ---
 # <% title %>
@@ -15,7 +16,7 @@ aliases:
 ## Notes
 
 
-## Additional metadata
+## Overview
 🔼Topic::
 ◀Origin::
 🔗Link::
