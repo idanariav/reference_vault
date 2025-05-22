@@ -27,7 +27,7 @@ The "vault_guides" folder is dedicated to help you familiarize yourself with the
 ## How to get Obsidian
 
 1. download [Obsidian](https://obsidian.md/download), 
-2. download these files either through GitHub (if you are familiar with copying a GitHub repository), or you can simply download the files from [this](https://drive.google.com/drive/folders/1-hEO2Ny4Tl2UogssRVxVMHbZBz7H9dyO?usp=sharing) link.
+2. download these files either through GitHub (if you are familiar with copying a GitHub repository), or you can simply download the files from [my online shop](https://ko-fi.com/s/8e6f6ccefc) link.
 3. Open obsidian and use "open folder as vault" and point it to the location of the downloaded files.
 4. For a more technical overview on how to use obsidian, don't forget to visit [[Utils and Templates guide]], [[Recommended Plugins]] and [[Obsidian and PKM in general]]
 5. For a more theorical overview on how to use this vault to enhance your life, visit [[Periodical Journaling]], [[Idea Processing]], and [[Vault Structure]]
@@ -36,4 +36,4 @@ Have fun!
 
 ## Want to connect?
 
-If you wish for a more thorough overview of Obsidian and how to use this vault, or questions about knowledge management in general, feel free to contact me via [this](https://tinyurl.com/contact-idan) form
+If you wish for a more thorough overview of Obsidian and how to use this vault, or questions about knowledge management in general, feel free to contact me via [this](https://idanariav.github.io/personal-website-docusaurus/contactPage) form
