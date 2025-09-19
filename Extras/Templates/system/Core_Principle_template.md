@@ -22,6 +22,4 @@ tags: [System/Core_Principle]
 
 ## Visions
 
-```dataview
-TABLE StartDate, EndDate, Status FROM #System/Vision AND [[<% title %>]]
-```
+![[pipeline_base.base#this_core_visions]]

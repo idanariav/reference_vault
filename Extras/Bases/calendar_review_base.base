@@ -1,0 +1,80 @@
+views:
+  - type: table
+    name: daily
+    filters:
+      and:
+        - date(file.name).year != this.file.properties.Date.year
+        - date(file.name).month == this.file.properties.Date.month
+        - date(file.name).day == this.file.properties.Date.day
+        - or:
+            - "!Achieved.isEmpty()"
+            - "!Initiated.isEmpty()"
+            - "!Insights.isEmpty()"
+            - "!Overcame.isEmpty()"
+            - "!Connection.isEmpty()"
+            - "!Enriched.isEmpty()"
+            - "!Affirmations.isEmpty()"
+            - "!Empowerment.isEmpty()"
+        - file.hasTag("Review/Daily")
+    order:
+      - file.name
+      - Achieved
+      - Initiated
+      - Enriched
+      - Overcame
+      - Connection
+      - Empowerment
+      - Insights
+      - Affirmations
+    sort:
+      - property: Initiated
+        direction: DESC
+      - property: Insights
+        direction: DESC
+      - property: Date
+        direction: ASC
+    rowHeight: extra
+    columnSize:
+      note.Initiated: 105
+  - type: table
+    name: monthly
+    filters:
+      and:
+        - file.hasTag("Review/Daily")
+        - Date >= this.file.properties.StartDate
+        - Date <= this.file.properties.EndDate
+        - or:
+            - "!Achieved.isEmpty()"
+            - "!Insights.isEmpty()"
+            - "!Initiated.isEmpty()"
+            - "!Connection.isEmpty()"
+            - "!Overcame.isEmpty()"
+            - "!Empowerment.isEmpty()"
+            - "!Affirmations.isEmpty()"
+            - "!Enriched.isEmpty()"
+    order:
+      - file.name
+      - Achieved
+      - Insights
+      - Initiated
+      - Connection
+      - Overcame
+      - Empowerment
+      - Affirmations
+      - Enriched
+    rowHeight: tall
+  - type: table
+    name: quarterly
+    filters:
+      and:
+        - file.hasTag("Review/Monthly")
+        - StartDate >= this.file.properties.StartDate
+        - EndDate <= this.file.properties.EndDate
+    order:
+      - file.name
+      - Peak
+      - Low
+      - Impactful
+      - Opportunity
+      - Discovery
+    rowHeight: tall

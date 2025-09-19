@@ -46,11 +46,7 @@ As mentioned, one of the more powerful features of such a system is that it can 
 6. [[Medium Independent]] - Information is shapeless, it can be transmitted through various mediums. 
 
 ### 📥Unsorted notes
-```dataview
-LIST FROM [[PKM (MOC)]] AND -outgoing([[PKM (MOC)]])
-AND  !#Type/MOC 
-sort file.name asc
-```
+![[moc_unsorted_notes_base.base]]
 
 ## 📧Sources
 

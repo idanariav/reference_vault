@@ -4,9 +4,9 @@ limit: 20
 mapWithTag: false
 tagNames:
   - Review/Daily
-excludes: 
-extends: 
-version: "2.110"
+excludes:
+extends:
+version: "2.124"
 fields:
   - id: b9mxJP
     name: Gratitude
@@ -14,12 +14,12 @@ fields:
     type: Input
     path: ""
   - id: eAPlH1
-    name: WorstCase
+    name: Forgiveness
     options: {}
     type: Input
     path: ""
   - id: GUbMKK
-    name: BestCase
+    name: Awe
     options: {}
     type: Input
     path: ""
@@ -106,7 +106,7 @@ fields:
     options: {}
     path: ""
     id: 6CYDxL
-  - name: Compliment
+  - name: Openness
     type: Input
     options: {}
     path: ""
@@ -133,11 +133,59 @@ fields:
       min: 0
     path: ""
     id: AYRipk
-filesPaths: 
-bookmarksGroups: 
-savedViews: 
-favoriteView: 
+  - name: Insights
+    type: Input
+    options: {}
+    path: ""
+    id: QvvDQC
+  - name: Achieved
+    type: Input
+    options: {}
+    path: ""
+    id: sVzpow
+  - name: Initiated
+    type: Input
+    options: {}
+    path: ""
+    id: zZKED7
+  - name: Enriched
+    type: Input
+    options: {}
+    path: ""
+    id: 6d4KKR
+  - name: Overcame
+    type: Input
+    options: {}
+    path: ""
+    id: SnAxBZ
+  - name: Connection
+    type: Input
+    options: {}
+    path: ""
+    id: mf6rEU
+  - name: Empowerment
+    type: Input
+    options: {}
+    path: ""
+    id: FDhyLY
+  - name: Affirmations
+    type: Input
+    options: {}
+    path: ""
+    id: s6qToz
+filesPaths:
+bookmarksGroups:
+savedViews: []
+favoriteView:
 fieldsOrder:
+  - s6qToz
+  - FDhyLY
+  - mf6rEU
+  - SnAxBZ
+  - 6d4KKR
+  - zZKED7
+  - sVzpow
+  - QvvDQC
   - rrGgMe
   - V99fi4
   - 0cu15u

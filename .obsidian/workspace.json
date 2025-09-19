@@ -15,8 +15,8 @@
               "state": {
                 "file": "README.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "README"
@@ -77,7 +77,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -104,7 +105,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Outline of README"
@@ -165,50 +169,51 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "06a0c2c2b0aaff6f",
   "lastOpenFiles": [
-    "Extras/file_classes/book_class.md",
-    "Extras/file_classes/metadata_class.md",
-    "Extras/file_classes/note_class.md",
-    "Extras/Templates/Utils/metadata_template.md",
+    "System/Visions/Being a creator (vision).md",
+    "System/Projects/publishing obsidian (project).md",
+    "System/Core Principles/Creativity (value).md",
+    "Sources/Books/Stillness Is Key (book).md",
+    "Content/Notes/Atomism.md",
+    "Content/MOCs/PKM (MOC).md",
+    "Extras/Images/moc_unsorted_notes_base.base",
+    "Extras/Templates/Calendar/quarterly_template.md",
+    "Extras/Templates/system/Core_Principle_template.md",
+    "Extras/Templates/system/Project_template.md",
+    "Extras/Templates/system/quarterly_plan template.md",
+    "Extras/Templates/system/vision_template.md",
+    "Extras/Templates/Content/moc_template.md",
+    "Extras/Images/pipeline_base.base",
     "Extras/Templates/Sources/Books/non_fiction_book_notes_templates.md",
-    "Extras/Templates/Sources/Books/fiction_book_notes_templates.md",
     "Extras/Templates/Sources/Books/Book_template.md",
     "Extras/Templates/Content/reference_template.md",
     "Extras/Templates/Content/note_template.md",
-    "Extras/Templates/Content/generic_note_template.md",
-    "Extras/Templates/Content/moc_template.md",
-    "Extras/Templates/Utils/note_picker_template.md",
-    "Extras/Templates/Content/Excalidraw_template.md",
-    "README.md",
+    "Extras/Images",
+    "Extras/Bases/moc_unsorted_notes_base.base",
+    "Extras/Templates/Calendar/yearly_template.md",
     "Extras/Templates/Calendar/weekly_template.md",
-    "System/Quarterly Plans/Creating a starter vault (Q-plan).md",
-    "System/Projects/publishing obsidian (project).md",
-    "System/Core Principles/Creativity (value).md",
-    "System/Visions/Being a creator (vision).md",
-    "Extras/Templates/System/core_principle_template.md",
-    "__vault_guides/Idea Processing.md",
-    "Content/Notes/The STIR system.md",
-    "Content/Notes/The LATCH system.md",
-    "Content/Notes/Simplicity.md",
-    "Content/Notes/P.A.R.A.md",
-    "Content/Notes/methods of knowledge management.md",
+    "Extras/Bases/calendar_review_base.base",
+    "Extras/Bases/pipeline_base.base",
+    "Extras/Templates/Calendar/daily_template.md",
+    "Extras/file_classes/monthly_class.md",
+    "Extras/Templates/Calendar/monthly_template.md",
+    "Calendar/Daily/2024-09-01.md",
+    "Calendar/Daily/2023-09-01.md",
+    "Extras/Bases",
+    "Extras/untitled folder",
+    "README.md",
+    "Extras/file_classes/book_class.md",
+    "Extras/file_classes/metadata_class.md",
     "Extras/drawings/Stillness Is Key (book).webp",
     "Extras/drawings",
     "Extras/‏‏תיקיה חדשה",
-    "Extras/Images/d",
-    "Extras/Images/‏‏תיקיה חדשה",
-    "Extras/Utils",
-    "System/Quarterly Plans",
-    "System/Projects",
-    "System/Visions",
-    "System/Core Principles",
-    "Sources/References",
     "Extras/Images/Guides/templater/user_scripts.png",
     "Extras/Images/Guides/templater/note_picker_template.png",
     "Extras/Images/Guides/templater/trigger_file_new_creation.png",

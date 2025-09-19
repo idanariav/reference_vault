@@ -14,13 +14,7 @@ Vision:
 # <% title %>
 
 ## Quarterly Plans
-```dataview
-TABLE WITHOUT ID Links, Links.StartDate AS StartDate, Links.EndDate AS EndDate, Links.Status AS Status, length(filter(Links.file.tasks, (x) => x.status = " ")) AS "Remaining Initiatives"
-FROM #System/Project 
-WHERE file.name = this.file.name
-FLATTEN file.inlinks as Links
-SORT Links.Deadline
-```
+![[pipeline_base.base#this_project_plans]]
 
 ## Overview:
 

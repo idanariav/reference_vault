@@ -21,6 +21,4 @@ Expressing my mastery in a certain field. A measure of my creativity, the abilit
 
 ## Visions
 
-```dataview
-TABLE StartDate, EndDate, Status FROM #System/Vision AND [[Creativity (value)]]
-```
+![[pipeline_base.base#this_core_visions]]

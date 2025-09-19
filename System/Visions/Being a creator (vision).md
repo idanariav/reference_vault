@@ -15,10 +15,7 @@ I want my knowledge, and my routine, to have meaning. It can only be done if it 
 
 ## How can I reach this goal? (active projects)
 
-```dataview
-TABLE StartDate, EndDate, Status FROM #System/Project AND [[Being a creator (vision)]]
-SORT StartDate
-```
+![[pipeline_base.base#this_vision_projects]]
 
 
 ## Notes

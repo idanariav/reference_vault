@@ -20,10 +20,7 @@ Value:
 
 ## How can I reach this goal? (active projects)
 
-```dataview
-TABLE StartDate, EndDate, Status FROM #System/Project AND [[<% newTitle %>]]
-SORT StartDate
-```
+![[pipeline_base.base#this_vision_projects]]
 
 
 ## Notes

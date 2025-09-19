@@ -14,11 +14,7 @@ tags: [Type/MOC]
 
 
 ### 📥Unsorted notes
-```dataview
-LIST FROM [[<% NewTitle %>]] AND -outgoing([[<% NewTitle %>]])
-AND  (#Type/Note OR #TYpe/Reference)
-sort file.name asc
-```
+![[moc_unsorted_notes_base.base]]
 
 ## 📧Sources
 

@@ -30,7 +30,7 @@ The "vault_guides" folder is dedicated to help you familiarize yourself with the
 2. download these files either through GitHub (if you are familiar with copying a GitHub repository), or you can simply download the files from [my online shop](https://ko-fi.com/s/8e6f6ccefc) link.
 3. Open obsidian and use "open folder as vault" and point it to the location of the downloaded files.
 4. For a more technical overview on how to use obsidian, don't forget to visit [[Utils and Templates guide]], [[Recommended Plugins]] and [[Obsidian and PKM in general]]
-5. For a more theorical overview on how to use this vault to enhance your life, visit [[Periodical Journaling]], [[Idea Processing]], and [[Vault Structure]]
+5. For a more theoretical overview on how to use this vault to enhance your life, visit [[Periodical Journaling]], [[Idea Processing]], and [[Vault Structure]]
 
 Have fun!
 

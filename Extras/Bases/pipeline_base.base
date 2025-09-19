@@ -1,0 +1,63 @@
+views:
+  - type: table
+    name: projects
+    filters:
+      and:
+        - file.hasTag("System/Project")
+        - '!Status.containsAny("Rejected", "Completed")'
+    order:
+      - file.name
+      - Status
+      - StartDate
+      - EndDate
+      - Vision
+  - type: table
+    name: visions
+    filters:
+      and:
+        - file.hasTag("System/Vision")
+        - '!Status.containsAny("Completed", "Rejected")'
+    order:
+      - file.name
+      - Status
+      - StartDate
+      - EndDate
+      - Value
+  - type: table
+    name: plans
+    filters:
+      and:
+        - file.hasTag("System/Quarterly_Plan")
+        - '!Status.containsAny("Rejected", "Completed")'
+  - type: table
+    name: this_core_visions
+    filters:
+      and:
+        - file.hasTag("System/Vision")
+        - file.hasLink(this)
+    order:
+      - file.name
+      - StartDate
+      - EndDate
+      - Status
+    columnSize:
+      file.name: 196
+  - type: table
+    name: this_vision_projects
+    filters:
+      and:
+        - file.hasTag("System/Project")
+        - file.hasLink(this)
+    order:
+      - file.name
+      - StartDate
+      - EndDate
+      - Status
+    columnSize:
+      file.name: 221
+  - type: table
+    name: this_project_plans
+    filters:
+      and:
+        - file.hasTag("System/Quarterly_Plan")
+        - file.hasLink(this)

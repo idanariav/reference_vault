@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.hasLink(this)
+    - not:
+        - this.file.hasLink(file)
+    - '!file.hasTag("Review/Daily")'
+    - '!file.hasTag("Type/MOC")'
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name

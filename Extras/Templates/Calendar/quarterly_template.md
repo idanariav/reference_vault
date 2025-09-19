@@ -21,12 +21,7 @@ The quarterly review’s goal is to track my development in the long run, how I 
 
 ## ⚖️Assessment
 
-```dataview
-TABLE Impactful, Low, Peak, Discovery, Opportunity FROM #Review/Monthly 
-WHERE date(StartDate) >= date(<% startQuarter %>)
-AND date(EndDate) <= date(<% endQuarter %>)
-SORT StartDate
-```
+![[calendar_review_base.base#quarterly]]
 
 ### ✍️Personal
 
@@ -43,20 +38,10 @@ SORT StartDate
 ### 🌱Quarterly Plans
 - [ ] check this quarter's plans, either active or backlog, or scheduled plans. Update as necessary (*when converting to "in progress", convert tasks to "backlog" with a b or assign dates*)
 
-```dataview
-TABLE Status, EndDate, Project FROM #System/Quarterly_Plan  
-WHERE (Status = "InProgress" OR  Status = "Todo")
-AND EndDate <= date(<% endQuarter %>)
-SORT Status DESC
-```
+![[pipeline_base.base#plans]]
 
 ### 🛤️Projects
 
 - [ ]  review all projects, create/update as necessary (dates, status, Quarterly Plans...)
-```dataview
-TABLE EndDate, Status, Vision FROM #System/Project
-WHERE file.folder != "Extras/Templates/system"
-AND Status != "Completed"
-SORT Status
-```
+![[pipeline_base.base#projects]]
 

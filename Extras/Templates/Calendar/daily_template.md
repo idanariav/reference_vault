@@ -4,12 +4,20 @@ await tp.file.move("Calendar/Daily/" + title)
 -%>
 Date: <% title %>
 tags: Review/Daily
-WorstCase: 
-BestCase:
+Forgiveness: 
+Awe:
 MinimalProgress:
 Gratitude:
 Kindness:
-Compliment:
+Openness:
+Insights: 
+Achieved:
+Initiated:
+Enriched: 
+Overcame:
+Connection:
+Empowerment:
+Affirmations:
 Documentation: true
 Health: true
 Mulligan: false
@@ -37,15 +45,7 @@ aliases: [<% moment(title).format("MMM D YYYY") %>]
 
 #### 📼On that day
 
-```dataview
-Table Achieved, Connection, Insights, Enriched, Initiated, Overcame, Empowerment, Affirmations from #Review/Daily
-WHERE file.day.month = this.file.day.month
-AND file.day.day = this.file.day.day
-AND file.day.year != this.file.day.year
-AND (Achieved>0 OR Connection>0 OR Insights>0 OR Enriched>0 OR Initiated>0 OR Overcame>0 OR Empowerment>0 OR Affirmations>0)
-SORT file.day DESC
-LIMIT 10
-```
+![[calendar_review_base.base#daily]]
 
 ## 📝 Planning
 
@@ -62,13 +62,3 @@ group by status.name
 
 ### 💭Documenting
 
-### 📜Logs
-
-🌱Insights:: 
-🏅Achieved::
-🔨Initiated::
-🧠Enriched:: 
-🗻Overcame::
-😊Connection::
-💪Empowerment::
-💝Affirmations::
