@@ -9,12 +9,12 @@ Also, the journaling habits is combined with the [[Task Management]] aspect of t
 Reflect on the day's events and how you acted in them. At first I used a base "rate" to rate my day, but then I realized how narrow it is. A single measure, especially a numeric one can't represent the richness and complexity of human life. That's why I added both qualitative measures (an empty text field to enter your thoughts about the day), and quantitative measures (metrics you can track across time).
 
 example metrics:
-1. WorstCase (text) - Thinking about a potential thing that can happen that would ruin your day, to enourage you to think how you can best prepare in advance (Originated from the [[stoics]] "negative meditation", a form of [[pre mortem]]) 
-2. BestCase (text) - What would be the best thing that can happen to you today? Can you make it a reality? Something to strive for
+1. Forgiveness (text) - What do you forgive yourself for doing or not doing today? To let go of shame, blame or fear
+2. Awe (text) - What have you seen today that excited you? A touching experience, something that has moved you
 3. MinimalProgress (text) - What would make you feel that "at least this day wasn't a waste", something as small as a few minutes that can create a feeling of progress
 4. Gratitude (text) - something you are grateful for
 5. Kindness (text) - an act of kindness you've done for someone else without expecting return
-6. Compliment (text) - a verbal expression of care or gratitude towards someone else
+6. Openness (text) - a verbal expression of care or gratitude towards someone else, to share part of yourself with someone else
 7. Documentation (True/False) - Have you been journaling today?
 8. Health (True/False) - Do you feel well today?
 9. AvoidedTemptations (True/False) - Did you manage to avoid temptations such as social media and unhealthy food today?
@@ -27,15 +27,24 @@ example metrics:
 16. Workout (Numeric) - How many minutes have you dedicated today for power workouts
 17. **Sleep** (hours + mins) - how long have you slept that day
 
-We are not superhumans, no one is expected to accomplish everything every day, but it does help us notice trends and keeps us accountable of our behavior.
+We are not super-humans, no one is expected to accomplish everything every day, but it does help us notice trends and keeps us accountable of our behavior.
 
 As an advanced version, I convert these inputs into numerical metrics and track them across time. The idea originated from Brandon Sanderson's "Metalmind" concept, where in every moment we are either developing and charging ourselves like a battery, or using our reserves (depleting the battery) when times are difficult. For example, working out is an investment in the moment, but we get it back when we have easier time moving our bodies. If we don't exercise for a long time, we won't have any "reserves" left to enjoy this physical fitness. 
 
 Let me know if such a template is of interest to you.
 
-Also, the daily template includes a "log" section which is a way to note important events that happen throughout the day.
-This events resurface using the Dataview plugin at the monthly level.
-For me, these different type of events (like insights, connection and empowerment) represent manifestation of my core values, which are examined in the yearly review.
+The template also includes a section of logs - events that are special, that represent the expression of your values in your day to day lives. For example, my logs are:
+1. **Insights** - Things I've learned about myself. Mindsets/habits/actions you should embrace.
+2. **Achieved** - Whatever you define as success - It could be as small as finishing a book, and as big as getting a medal. 
+3. **Initiated** - New systems/habits that improved your life, like starting to work out or reading books
+4. **Enriched** - Content written, notes created/expanded, thoughts emerged.
+5. Overcame - Challenges/failures, either internal or external that you faced and how you overcame them
+6. **Connection** - Moments of connection with others, from pure happiness, to more intense feelings, deep moments of connection.
+7. **Empowerment** - actions made with others in mind, for their wellbeing even at personal cost, such as acts of kindness to your partner, being a good friend/family member, etc. reaching to others from genuine intent and care.
+8. **Affirmations** - expressions of self confidence, love and compassion. Things you want to remind yourself, especially today.
+
+These events resurface using the bases plugin at the monthly level.
+
 ## Weekly
 
 While on the day-to-day we might fluctuate, some days will be better, some worse, on some we are just too busy, on others we might have a few minutes to spare. Our hope is that on a weekly basis we are able to be on track with our plans. 

@@ -12,7 +12,7 @@ To use obsidian plugins, you need to turn off "restricted mode", in the communit
 
 When I simplified my workflow, I narrowed it down to ~20 essential plugins for my use cases, of which I believe 8 are game changers for every PKM user:
 
-1. **Dataview** - The ability to query your notes, to get dynamic list of notes which constantly updates based on custom filters. For example, "show me all the notes that I've written in the last week", or more advanced like "Show me all the books with X tag and a custom field status of y". This plugin turns your vault from a simple word processor to an intelligent knowledge management system. [Documentation](https://blacksmithgu.github.io/obsidian-dataview/)
+1. **Dataview** - The ability to query your notes, to get dynamic list of notes which constantly updates based on custom filters. For example, "show me all the notes that I've written in the last week", or more advanced like "Show me all the books with X tag and a custom field status of y". This plugin turns your vault from a simple word processor to an intelligent knowledge management system. [Documentation](https://blacksmithgu.github.io/obsidian-dataview/). This plugin has became much less relevant after the "bases" core plugin that is capable of preforming most of the same queries, but dataview still has some advantages like querying inline fields.
 2. **Templater** - Without it, my vault couldn't grow, because each new note would have been so cumbersome to create because of all the custom field I would have to fill in by hand each time. The flexibility of this plugin to create custom templates is absolutely phenomenal. [Documentation](https://silentvoid13.github.io/Templater/introduction.html)
 3. **Tasks** - enables you to create, query and adjust tasks better than any task management tool that exists out there [Documentation](https://publish.obsidian.md/tasks/Introduction)
 4. **Linter** - "cleans" up the formatting of your notes based on certain rules. While it doesn't "add" anything to my knowledge, it certainly makes it more pretty and readable [Documentation](https://platers.github.io/obsidian-linter/)
@@ -29,10 +29,11 @@ Obsidian comes with a full set of core plugins, some more useful than others. Go
 
 I really like:
 1. **slash commands** - the ability to trigger any obsidian command when typing "/" (which is something more comfortable than opening the command palette)
-2. **backlinks and inlinks** - a way to find which notes are references in this document, and which notes references this document, and the best is "unmentioned links", where the document is mentioned by name but not yet recognized as a "[[]]" link.
-3. **outline** - a small panel that shows the outline (based on headers) of the current note
-4. **bookmarks** - a way to save and quickly navigate between notes (similar to "favorites")
-5. **quick switcher and command palette** - quick switcher is a way to navigate between notes (even uncreated ones), and command palette lets you activate all the possible obsidian + plugins commands (like move a file, open an excalidraw drawing, insert a template)
+2. **Bases** - A good, simple, and fast way to query files in your vault with custom filters, using the same base across many notes instead of rewriting queries.
+3. **backlinks and inlinks** - a way to find which notes are references in this document, and which notes references this document, and the best is "unmentioned links", where the document is mentioned by name but not yet recognized as a "[[]]" link.
+4. **outline** - a small panel that shows the outline (based on headers) of the current note
+5. **bookmarks** - a way to save and quickly navigate between notes (similar to "favorites")
+6. **quick switcher and command palette** - quick switcher is a way to navigate between notes (even uncreated ones), and command palette lets you activate all the possible obsidian + plugins commands (like move a file, open an excalidraw drawing, insert a template)
 
 ## Themes
 

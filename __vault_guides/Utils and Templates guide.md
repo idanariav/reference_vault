@@ -52,27 +52,13 @@ Calendar templates are used for journaling, more details can be found here - [[P
 
 #### Daily 
 ##### inspiration:
-this section includes a daily quote for inspiration, and highilghts important event that you wrote on the same day aka "on that day")  in previous years (for example, if you filled the "connection" field in Oct 16 2023, it will pop up in Oct 16 2024-2033)
-![[daily_template#💡Inspiration]]
-
+this section includes a daily quote for inspiration, and highlights important event that you wrote on the same day aka "on that day")  in previous years (for example, if you filled the "connection" field in Oct 16 2023, it will pop up in Oct 16 2024-2033)
 
 ##### Planning
 this section shows tasks that should be done today (based on active projects and quarterly plans)
 
 ##### Reviewing:
-In this section, the "documenting" is for free form text, while the "logs" is for short descriptions of important events based on the category they belong to.
-For me, I record events by:
-1. **Insights**: things I've learned about myself, healthier mindsets that I should have
-2. **Achieved**: successes based on my constant progress such as books read, courses or projects finished (_determination_)  
-3. **Initiated**: either one time or long term actions or changes that promotes me towards the person I want to become, especially better defaults or habits
-4. **Enriched**: content written, notes created/expanded, thoughts emerged
-5. **Overcame**: challenges/failures, either internal or external that I faced and how I overcame them (_Grandeur_)  
-6. **Connection**: moments of connection with others, from pure happiness, to sharing feelings, deep moments of connection, acts of kindness, etc. 
-7. **Empowerment**: actions made with others in mind, for their wellbeing even at personal cost, such as acts of kindness to your partner, being a good friend/family member, etc. reaching to others from genuine intent and care
-8. **Affirmations**: expressions of self confidence, love and compassion
-
-![[daily_template#🔄Reviewing]]
-
+In this section, the "documenting" is a free form text for writing whatever you want
 
 #### Weekly
 
@@ -84,8 +70,6 @@ An overview of tasks related to this week, divided by status (todo, in progress,
 
 A series of open questions to review your week, focusing on actions and habits that you can improve for next week
 
-![[weekly_template#🗓️Past week]]
-
 ##### Todos
 
 here you can add checkboxes in the form of "- [ ] " for small things you want to complete during the review. For example I add a task for syncing my kindle so that my weekly highlights won't get lost if something happens to it.
@@ -94,13 +78,13 @@ here you can add checkboxes in the form of "- [ ] " for small things you want to
 
 ##### Logs
 
-This Dataview query shows all the logs we filled in the last month. For example, every "connection" log we wrote.
+This bases query shows all the logs we filled in the last month. For example, every "connection" log we wrote.
 
 This helps reflect on the meaningful moments that happened in the last month, which can often get overlooked because we are so busy in the day to day
 
 ##### Events
 
-This section is similar to the logs section in the daily template, but instead we write the major events that happened this month that will be resurfaced in the quarterly review.
+The events template include 5 fields that are similar to the logs section in the daily template, but instead we write the major events that happened this month that will be resurfaced in the quarterly review.
 For example:
 1. Peak - something great that has happened
 2. low - something bad, a sad moment
@@ -108,24 +92,17 @@ For example:
 4. opportunity - something that we can do differently, a chance for change
 5. discovery - something new that has entered our lives
 
-![[monthly_template#📒Events]]
-
 #### Quarterly
 
-##### Assesment
-In the quarterly review assesment section, there is a Dataview query that shows all the logs from the monthly table.
+##### Assessment
+In the quarterly review assessment section, there is a bases query that shows all the logs from the monthly table.
 
 Then we have 3 areas for a free text answer, where we can reflect on how we have developed in different areas of our lives - personal, social and professional. 
 Usually we don't notice how much things have changed during a quarter, but looking back we can see how far we've come, and be grateful and proud of our journey.
 
-
-![[quarterly_template#⚖️Assessment]]
-
 ##### Planning
 
 In this section we can review our active quarterly plans and whether we have finished what we set out to do in this quarter, and also review our active projects and see whether they require any adaptation based on changes in the last quarter and how far we have progressed.
-
-![[quarterly_template#📝Planning]]
 
 ##### Yearly
 

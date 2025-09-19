@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "__vault_guides/Vault Structure.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Vault Structure"
             }
           }
         ]
@@ -105,13 +105,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "__vault_guides/Vault Structure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Vault Structure"
             }
           }
         ]
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "__vault_guides/Vault Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for Vault Structure"
             }
           }
         ]
@@ -153,12 +153,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "__vault_guides/Vault Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from Vault Structure"
             }
           }
         ]
@@ -177,6 +177,14 @@
   },
   "active": "06a0c2c2b0aaff6f",
   "lastOpenFiles": [
+    "__vault_guides/Utils and Templates guide.md",
+    "Extras/Templates/Calendar/daily_template.md",
+    "__vault_guides/Periodical Journaling.md",
+    "__vault_guides/Recommended Plugins.md",
+    "__vault_guides/Obsidian and PKM in general.md",
+    "__vault_guides/Idea Processing.md",
+    "__vault_guides/Goals and Tasks management.md",
+    "README.md",
     "System/Visions/Being a creator (vision).md",
     "System/Projects/publishing obsidian (project).md",
     "System/Core Principles/Creativity (value).md",
@@ -201,16 +209,8 @@
     "Extras/Templates/Calendar/weekly_template.md",
     "Extras/Bases/calendar_review_base.base",
     "Extras/Bases/pipeline_base.base",
-    "Extras/Templates/Calendar/daily_template.md",
-    "Extras/file_classes/monthly_class.md",
-    "Extras/Templates/Calendar/monthly_template.md",
-    "Calendar/Daily/2024-09-01.md",
-    "Calendar/Daily/2023-09-01.md",
     "Extras/Bases",
     "Extras/untitled folder",
-    "README.md",
-    "Extras/file_classes/book_class.md",
-    "Extras/file_classes/metadata_class.md",
     "Extras/drawings/Stillness Is Key (book).webp",
     "Extras/drawings",
     "Extras/‏‏תיקיה חדשה",
