@@ -1,9 +1,10 @@
 ---
-tags: [System/Vision]
-StartDate: 
-EndDate: 
-Status:
-Value:
+tags:
+  - System/Vision
+StartDate:
+EndDate:
+Status: InProgress
+Value: "[[Creativity (value)]]"
 ---
 # Being a creator
 

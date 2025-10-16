@@ -18,6 +18,6 @@ What makes obsidian unique as opposed to other knowledge management tools such a
 1. **Future proof** - Whatever you create in obsidian is saved locally on your computer, which means you will never be locked out of it, and transferring it to a different software or even accessing it in case obsidian gets destroyed is simple and easy because it uses markdown files which are standard text files. Imagine notion suddenly going bankrupt and all the knowledge you gathered throughout the years is suddenly locked and gone forever, how awful would that be. 
 2. **Privacy first** - No one can access your notes (unless you want them to), it's saved locally so it is as secure as it gets
 3. **Open source community** - Thousands of members can contribute to Obsidian by creating community plugins which adds game changing features to obsidian (see [[Recommended Plugins]])
-4. **Endless flexability** - Obsidian can be as simple or as complex as you want it to. It can be just a "word processor", or a sophisticated task manager/ai note taking system that is tailor made for you. Whatever you want it to be, you can create it.
+4. **Endless flexibility** - Obsidian can be as simple or as complex as you want it to. It can be just a "word processor", or a sophisticated task manager/ai note taking system that is tailor made for you. Whatever you want it to be, you can create it.
 
 More about obsidian - links, tag, files [Obsidian Documentation](https://help.obsidian.md/Home)

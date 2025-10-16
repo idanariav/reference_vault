@@ -3,6 +3,7 @@
 const title = tp.file.title
 -%>
 tags: [System/Core_Principle]
+Moto:
 ---
 
 # <% title %>

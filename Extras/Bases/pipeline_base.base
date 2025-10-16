@@ -61,3 +61,11 @@ views:
       and:
         - file.hasTag("System/Quarterly_Plan")
         - file.hasLink(this)
+  - type: table
+    name: core_principles
+    filters:
+      and:
+        - file.hasTag("System/Core_Principle")
+    order:
+      - file.name
+      - Moto

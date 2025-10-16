@@ -1,19 +1,30 @@
 ---
 <%* //my constants
 const title = tp.file.title
-const prevQuarter = moment(title, 'YYYY-[Q]Q').subtract(1, 'quarters').format('YYYY-[Q]Q')
-const startQuarter = moment(title, 'YYYY-[Q]Q').startOf('quarter').format('YYYY-MM-DD')
-const endQuarter = moment(title, 'YYYY-[Q]Q').endOf('quarter').format('YYYY-MM-DD')
+const current = window.moment(title, 'YYYY-[Q]Q');
+const prevQuarter = current.clone().subtract(1, 'quarters').format('YYYY-[Q]Q')
+const currentYear = current.clone().format('YYYY')
+const nextQuarter = current.clone().add(1, 'quarters').format('YYYY-[Q]Q')
+const startQuarter = current.clone().startOf('quarter').format('YYYY-MM-DD')
+const endQuarter = current.clone().endOf('quarter').format('YYYY-MM-DD')
+const firstMonth = current.clone().startOf('quarter').format('YYYY-MM')
+const secondMonth = current.clone().startOf('quarter').add(1, 'months').format('YYYY-MM')
+const thirdMonth = current.clone().startOf('quarter').add(2, 'months').format('YYYY-MM')
 await tp.file.move("Calendar/Quarterly/" + title)
 -%>
+Prev: "[[<% prevQuarter %>]]"
+Next: "[[<% nextQuarter %>]]"
+Up: "[[<% currentYear %>]]"
+Down:
+ - "[[<% firstMonth %>]]"
+ - "[[<% secondMonth %>]]"
+ - "[[<% thirdMonth %>]]"
 StartDate: <% startQuarter %>
 EndDate: <% endQuarter %>
 tags: Review/Quarterly
 aliases:
 ---
 # <% title %>
-
-Component:: [[<% moment(startQuarter, 'YYYY-MM-DD').format('YYYY-MM') %>]], [[<% moment(startQuarter, 'YYYY-MM-DD').add(1, 'months').format('YYYY-MM') %>]], [[<% moment(startQuarter, 'YYYY-MM-DD').add(2, 'months').format('YYYY-MM') %>]]
 
 > [!success]+ Quarterly Review
 > 

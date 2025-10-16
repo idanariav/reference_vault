@@ -1,8 +1,23 @@
 ---
 <%* const title = tp.file.title
+
+const current = window.moment(title, "YYYY-MM-DD");
+
+// Compute previous and next days
+const prev = current.clone().subtract(1, "day").format("YYYY-MM-DD");
+const next = current.clone().add(1, "day").format("YYYY-MM-DD");
+const today_alias = current.clone().format("MMM D YYYY")
+// Compute ISO week and month
+const week = `${current.weekYear()}-W${current
+.week()}`;
+const month = current.clone().format("YYYY-MM");
 await tp.file.move("Calendar/Daily/" + title)
 -%>
 Date: <% title %>
+Prev: "[[<% prev %>]]"
+Next: "[[<% next %>]]"
+Week: "[[<% week %>]]"
+Month: "[[<% month %>]]"
 tags: Review/Daily
 Forgiveness: 
 Awe:
@@ -33,7 +48,8 @@ Studying: 0
 Developing: 0
 Cardio: 0
 Workout: 0
-aliases: [<% moment(title).format("MMM D YYYY") %>]
+aliases: 
+ - <% moment(title).format("MMM D YYYY") %>
 ---
 # <% title %>
 

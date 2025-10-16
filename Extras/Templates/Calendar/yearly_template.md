@@ -1,14 +1,27 @@
 ---
 <%*
+<%*
 const title = tp.file.title
-await tp.file.move("Calendar/Yearly/" + title)
+const current = window.moment(title, 'YYYY');
+await tp.file.move("Calendar/Inbox/" + title)
+const Prev = current.clone().subtract(1, 'years').format("YYYY")
+const Next = current.clone().add(1, 'years').format("YYYY")
+const yearStart = current.clone().startOf('year')
+const q1 = yearStart.clone().format('YYYY-[Q]Q')
+const q2 = yearStart.clone().add(1, 'quarters').format('YYYY-[Q]Q')
+const q3 = yearStart.clone().add(2, 'quarters').format('YYYY-[Q]Q')
+const q4 = yearStart.clone().add(3, 'quarters').format('YYYY-[Q]Q')
 -%>
-Year: <% title %>
+Prev: "[[<% Prev %>]]"
+Next: "[[<% Next %>]]"
+Down:
+ - "[[<% q1 %>]]"
+ - "[[<% q2 %>]]"
+ - "[[<% q3 %>]]"
+ - "[[<% q4 %>]]"
 tags: Review/Yearly
 ---
 # <% title %>
-
-down:: [[<% `${title}-Q1` %>]] [[<% `${title}-Q2` %>]] [[<% `${title}-Q3` %>]] [[<% `${title}-Q4` %>]]
 
 > [!success]+ Yearly Review
 > 
@@ -118,6 +131,9 @@ The yearly review’s goal is to deeply review multiple aspects on the passing y
 
 
 ### 🌟Values
+
+![[pipeline_base.base#core_principles]]
+
 > [!info]- Values
 > - which values I have fulfilled?
 > - do I have new Values?
@@ -125,19 +141,11 @@ The yearly review’s goal is to deeply review multiple aspects on the passing y
 
 ### 🔭Vision
 
-```dataview
-LIST FROM #System/Vision  
-WHERE file.name != "vision_template"
-AND status != "completed"
-```
+![[pipeline_base.base#visions]]
 
 ### 🛤️Projects
 
-```dataview
-LIST FROM #System/Project 
-and !#Status/Completed 
-WHERE file.name != "project_template"
-```
+![[pipeline_base.base#projects]]
 
 ## 🔧To-dos
 - [ ]  Create new visions according to the existing (and new) values

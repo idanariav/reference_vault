@@ -1,5 +1,6 @@
 ---
 tags: [System/Core_Principle]
+Moto: Create Value
 ---
 
 # Creativity (value)

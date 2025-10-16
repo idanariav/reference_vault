@@ -8,12 +8,12 @@ await tp.file.move("/Sources/Books/" + newTitle)
 -%>
 <% tp.file.include('[[metadata_template]]') %>
 tags: [Type/Book]
-PublishDate: {{publishDate}}
-Pages: {{totalPage}}
-Author: "[[{{author}}]]"
-Genre: {{category}}
+PublishDate:
+Pages:
+Author: 
+Genre: 
 Fiction: <% fiction %>
-Cover: {{coverUrl}}
+Cover:
 URL:
 ReadingStatus: Next
 FinishDate: 

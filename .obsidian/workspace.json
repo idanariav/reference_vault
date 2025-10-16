@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "__vault_guides/Vault Structure.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Vault Structure"
+              "title": "README"
             }
           }
         ]
@@ -63,8 +63,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "0bbb0604ebe26ede",
@@ -105,13 +104,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "__vault_guides/Vault Structure.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Vault Structure"
+              "title": "Outline of README"
             }
           }
         ]
@@ -127,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "__vault_guides/Vault Structure.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Vault Structure"
+              "title": "Backlinks for README"
             }
           }
         ]
@@ -153,12 +152,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "__vault_guides/Vault Structure.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Vault Structure"
+              "title": "Outgoing links from README"
             }
           }
         ]
@@ -177,43 +176,43 @@
   },
   "active": "06a0c2c2b0aaff6f",
   "lastOpenFiles": [
-    "__vault_guides/Utils and Templates guide.md",
-    "Extras/Templates/Calendar/daily_template.md",
-    "__vault_guides/Periodical Journaling.md",
-    "__vault_guides/Recommended Plugins.md",
-    "__vault_guides/Obsidian and PKM in general.md",
-    "__vault_guides/Idea Processing.md",
     "__vault_guides/Goals and Tasks management.md",
-    "README.md",
-    "System/Visions/Being a creator (vision).md",
+    "System/Quarterly Plans/Creating a starter vault (Q-plan).md",
     "System/Projects/publishing obsidian (project).md",
-    "System/Core Principles/Creativity (value).md",
-    "Sources/Books/Stillness Is Key (book).md",
-    "Content/Notes/Atomism.md",
-    "Content/MOCs/PKM (MOC).md",
-    "Extras/Images/moc_unsorted_notes_base.base",
-    "Extras/Templates/Calendar/quarterly_template.md",
-    "Extras/Templates/system/Core_Principle_template.md",
-    "Extras/Templates/system/Project_template.md",
-    "Extras/Templates/system/quarterly_plan template.md",
-    "Extras/Templates/system/vision_template.md",
-    "Extras/Templates/Content/moc_template.md",
-    "Extras/Images/pipeline_base.base",
-    "Extras/Templates/Sources/Books/non_fiction_book_notes_templates.md",
+    "System/Visions/Being a creator (vision).md",
+    "Extras/Templates/Utils/note_picker_template.md",
+    "Extras/Utils/Status list util.md",
+    "Extras/Templates/Utils/metadata_template.md",
+    "Extras/Templates/System/vision_template.md",
+    "Extras/Templates/System/quarterly_plan template.md",
+    "Extras/Templates/System/project_template.md",
+    "Extras/Templates/System/core_principle_template.md",
     "Extras/Templates/Sources/Books/Book_template.md",
+    "Extras/Templates/Sources/Books/non_fiction_book_notes_templates.md",
+    "Extras/Templates/Sources/Books/fiction_book_notes_templates.md",
     "Extras/Templates/Content/reference_template.md",
     "Extras/Templates/Content/note_template.md",
+    "Extras/Templates/Content/moc_template.md",
+    "Extras/Templates/Content/generic_note_template.md",
+    "System/Core Principles/Creativity (value).md",
+    "__vault_guides/Recommended Plugins.md",
+    "__vault_guides/Obsidian and PKM in general.md",
+    "Extras/Templates/Calendar/yearly_template.md",
+    "Extras/Bases/pipeline_base.base",
+    "Extras/Templates/Calendar/weekly_template.md",
+    "Extras/Templates/Calendar/quarterly_template.md",
+    "Extras/Templates/Calendar/monthly_template.md",
+    "Extras/Snippets/getPeriodDays.js",
+    "Extras/Templates/Calendar/daily_template.md",
+    "Extras/Images/moc_unsorted_notes_base.base",
+    "Extras/Images/pipeline_base.base",
     "Extras/Images",
     "Extras/Bases/moc_unsorted_notes_base.base",
-    "Extras/Templates/Calendar/yearly_template.md",
-    "Extras/Templates/Calendar/weekly_template.md",
     "Extras/Bases/calendar_review_base.base",
-    "Extras/Bases/pipeline_base.base",
     "Extras/Bases",
     "Extras/untitled folder",
     "Extras/drawings/Stillness Is Key (book).webp",
     "Extras/drawings",
-    "Extras/‏‏תיקיה חדשה",
     "Extras/Images/Guides/templater/user_scripts.png",
     "Extras/Images/Guides/templater/note_picker_template.png",
     "Extras/Images/Guides/templater/trigger_file_new_creation.png",

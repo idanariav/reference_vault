@@ -1,21 +1,24 @@
 ---
 <%* //my constants
 const title = tp.file.title
-const Weekend = moment(title, 'YYYY-[W]WW').isoWeekday(6).format('YYYY-MM-DD')
-const next_week = moment(Weekend).add(7, 'days').format("gggg-[W]ww")
-const week_start = moment(title, 'YYYY-[W]WW').isoWeekday(0).format('YYYY-MM-DD')
+const current = window.moment(title, 'YYYY-[W]WW');
+const Weekend = current.clone().isoWeekday(6).format('YYYY-MM-DD')
+const prev_week = current.clone().subtract(1, 'week').format('YYYY-[W]WW')
+const next_week = current.clone().add(1, 'week').format('YYYY-[W]WW')
+const week_start = current.clone().isoWeekday(0).format('YYYY-MM-DD')
 await tp.file.move("Calendar/Weekly/" + title)
 -%>
+Prev: "[[<% prev_week %>]]"
+Next: "[[<% next_week %>]]"
+Down: 
+<% tp.user.getPeriodDays(Weekend, period='week') %>
 StartDate: <% week_start %>
 EndDate: <% Weekend %>
 tags: Review/Weekly
-aliases: ["weekend of <% moment(Weekend).format("MMM D, YYYY") %>"]
+aliases: 
+ - "weekend of <% moment(Weekend).format("MMM D, YYYY") %>"
 ---
 # <% title %>
-
-> [!info]- Additional Metadata
-Component:: <% tp.user.getWeeksDays(Weekend) %>
-> 
 
 > [!success]+ Weekly Review
 > 

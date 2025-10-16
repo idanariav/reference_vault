@@ -61,7 +61,7 @@ else if (pickTemplate == "advanced")
 // system
 else if (pickTemplate == "system")
 {
-	pickTemplate = await tp.system.suggester(["Projects", "Quarterly plans", "Visions"], ["[[Project_template]]", "[[quarterly_plan template]]", "[[vision_template]]"])
+	pickTemplate = await tp.system.suggester(["Projects", "Quarterly plans", "Visions"], ["[[project_template]]", "[[quarterly_plan template]]", "[[vision_template]]"])
 }
 
 return await tp.file.include(`${pickTemplate}`)

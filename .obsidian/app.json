@@ -4,5 +4,6 @@
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "Extras/Images",
-  "showIndentGuide": false
+  "showIndentGuide": false,
+  "showUnsupportedFiles": true
 }
