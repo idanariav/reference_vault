@@ -2,3 +2,5 @@
 .trash/
 .DS_Store
 .venv
+.obsidian/workspace.json
+.obsidian/workspaces.json
